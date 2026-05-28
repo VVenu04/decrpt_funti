@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "GRAPH_WEBHOOK_CERTIFICATE_PATH": "C:\\path\\to\\optimo-webhook-private.pfx",
+    "GRAPH_WEBHOOK_CERTIFICATE_PASSWORD": "your-pfx-password"
+  }
+}

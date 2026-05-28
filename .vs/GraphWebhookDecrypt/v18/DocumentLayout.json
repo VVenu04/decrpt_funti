@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\decryptgraphnotificationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:decryptgraphnotificationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\graphnotificationdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:graphnotificationdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|c:\\users\\vvenu\\onedrive\\desktop\\webhook\\graphwebhookdecrypt\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8CCCBC4-F922-2B82-6A8B-5F49613A5531}|GraphWebhookDecrypt.csproj|solutionrelative:host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-28T08:45:38.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\local.settings.json",
+              "RelativeDocumentMoniker": "local.settings.json",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\local.settings.json",
+              "RelativeToolTip": "local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-28T08:34:14.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphNotificationDecryptor.cs",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\GraphNotificationDecryptor.cs",
+              "RelativeDocumentMoniker": "GraphNotificationDecryptor.cs",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\GraphNotificationDecryptor.cs",
+              "RelativeToolTip": "GraphNotificationDecryptor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:33:58.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DecryptGraphNotificationFunction.cs",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\DecryptGraphNotificationFunction.cs",
+              "RelativeDocumentMoniker": "DecryptGraphNotificationFunction.cs",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\DecryptGraphNotificationFunction.cs",
+              "RelativeToolTip": "DecryptGraphNotificationFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:33:48.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\host.json",
+              "RelativeDocumentMoniker": "host.json",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\host.json",
+              "RelativeToolTip": "host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-28T08:33:44.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vvenu\\OneDrive\\Desktop\\webhook\\GraphWebhookDecrypt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:34:09.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
