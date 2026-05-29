@@ -12,6 +12,13 @@ namespace GraphWebhookDecrypt;
 /// </summary>
 public sealed class GraphNotificationDecryptor
 {
+    private readonly FileLogWriter _fileLog;
+
+    public GraphNotificationDecryptor(FileLogWriter fileLog)
+    {
+        _fileLog = fileLog;
+    }
+
     public JsonDocument Decrypt(EncryptedContentDto encryptedContent, X509Certificate2 certificate)
     {
         ArgumentNullException.ThrowIfNull(encryptedContent);
@@ -36,6 +43,7 @@ public sealed class GraphNotificationDecryptor
 
         if (!string.Equals(encryptedContent.DataSignature, expectedSignature, StringComparison.Ordinal))
         {
+            _fileLog.LogError("dataSignature validation failed.");
             throw new InvalidDataException("dataSignature does not match decrypted payload.");
         }
 
@@ -53,14 +61,19 @@ public sealed class GraphNotificationDecryptor
         if (!string.IsNullOrWhiteSpace(base64Pfx))
         {
             var pfxBytes = Convert.FromBase64String(base64Pfx.Trim());
-            return new X509Certificate2(pfxBytes, password, X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.Exportable);
+            var cert = new X509Certificate2(pfxBytes, password, X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.Exportable);
+            _fileLog.LogInfo($"Certificate loaded from GRAPH_WEBHOOK_CERTIFICATE_BASE64. thumbprint={cert.Thumbprint}");
+            return cert;
         }
 
         if (!string.IsNullOrWhiteSpace(pfxPath))
         {
-            return new X509Certificate2(pfxPath, password, X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.Exportable);
+            var cert = new X509Certificate2(pfxPath, password, X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.Exportable);
+            _fileLog.LogInfo($"Certificate loaded from GRAPH_WEBHOOK_CERTIFICATE_PATH. thumbprint={cert.Thumbprint}");
+            return cert;
         }
 
+        _fileLog.LogError("Certificate settings missing (GRAPH_WEBHOOK_CERTIFICATE_BASE64 or GRAPH_WEBHOOK_CERTIFICATE_PATH).");
         throw new InvalidOperationException(
             "Set GRAPH_WEBHOOK_CERTIFICATE_BASE64 (PFX bytes, base64) or GRAPH_WEBHOOK_CERTIFICATE_PATH.");
     }

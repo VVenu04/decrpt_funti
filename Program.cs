@@ -5,7 +5,11 @@ using Microsoft.Extensions.Hosting;
 
 var host = new HostBuilder()
     .ConfigureFunctionsWebApplication()
-    .ConfigureServices(services => services.AddSingleton<GraphNotificationDecryptor>())
+    .ConfigureServices(services =>
+    {
+        services.AddSingleton<FileLogWriter>();
+        services.AddSingleton<GraphNotificationDecryptor>();
+    })
     .Build();
 
 host.Run();
